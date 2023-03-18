@@ -20,7 +20,7 @@ amazing-project
 $ cat amazing-project/project.clj
 (defproject amazing-project "0.1.0-SNAPSHOT"
   :description "A Clojure project"
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [[org.clojure/clojure "1.11.1"]]
   :main amazing-project.core)
 $ cat amazing-project/src/amazing_project/core.clj
 (ns amazing-project.core)
