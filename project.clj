@@ -1,4 +1,4 @@
-(defproject empty/lein-template "1.0.0"
+(defproject empty/lein-template "1.1.0"
   :description "Absolute bare minimum Leiningen template"
   :url "https://github.com/radian-software/empty"
   :license {:name "MIT License"
