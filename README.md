@@ -25,3 +25,13 @@ $ cat amazing-project/project.clj
 $ cat amazing-project/src/amazing_project/core.clj
 (ns amazing-project.core)
 ```
+
+## Releasing
+
+Make sure the changelog is up to date and the `project.clj` reflects
+the new version number to be released.
+
+To publish a new version of the template to Clojars, run `lein
+release`. It will use the configuration in `project.clj` and prompt
+interactively for credentials. You must use a deploy token for
+authentication.
