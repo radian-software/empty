@@ -3,4 +3,5 @@
   :url "https://github.com/radian-software/empty"
   :license {:name "MIT License"
             :url "http://www.opensource.org/licenses/mit-license.php"}
-  :eval-in-leiningen true)
+  :eval-in-leiningen true
+  :release-tasks [["deploy" "clojars"]])
